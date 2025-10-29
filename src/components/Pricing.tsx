@@ -119,7 +119,11 @@ export default function Pricing() {
                   )}
                 </div>
 
-                <p className="text-gray-300 mb-8 text-center">{tier.description}</p>
+                <p className="text-gray-300 mb-8 text-center">
+                  {tier.name === 'Imperial Vault'
+                    ? 'Open the gates of eternity and claim the vault\'s full majesty'
+                    : tier.description}
+                </p>
 
                 <button
                   className={`w-full py-4 rounded-xl font-semibold text-lg transition-all duration-300 mb-8 ${
