@@ -6,9 +6,6 @@ export default function VaultPreview() {
 
   const categories = [
     { id: 'all', label: 'All Collections' },
-    { id: 'festival', label: 'Festival Elegance' },
-    { id: 'crowd', label: 'Crowd Harmony' },
-    { id: 'cosmic', label: 'Cosmic Motion' },
   ];
 
   const videos = [
@@ -39,20 +36,12 @@ export default function VaultPreview() {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
-          {categories.map((category) => (
-            <button
-              key={category.id}
-              onClick={() => setActiveCategory(category.id)}
-              className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
-                activeCategory === category.id
-                  ? 'bg-gradient-to-r from-purple-600 to-orange-500 text-white shadow-lg shadow-orange-500/50'
-                  : 'bg-indigo-900/40 text-gray-200 border border-violet-400/30 hover:border-orange-400/50 hover:text-orange-300'
-              }`}
-            >
-              {category.label}
-            </button>
-          ))}
+        <div className="flex justify-center mb-16">
+          <button
+            className="px-12 py-6 rounded-full font-medium transition-all duration-300 bg-gradient-to-r from-purple-600 to-orange-500 text-white shadow-lg shadow-orange-500/50 text-xl"
+          >
+            All Collections
+          </button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
