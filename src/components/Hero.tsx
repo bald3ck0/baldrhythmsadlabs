@@ -24,8 +24,13 @@ export default function Hero() {
 
       <div className="relative z-10 text-center max-w-5xl">
         <div className="mb-8 inline-block">
-          <h1 className="text-7xl md:text-8xl tracking-tight mb-4 solar-flare-title">
-            Baldrhythms Ad Labs
+          <h1 className="tracking-tight mb-4">
+            <div className="text-7xl md:text-8xl solar-flare-title">
+              Baldrhythms
+            </div>
+            <div className="text-4xl md:text-5xl solar-flare-title mt-2">
+              Ad Labs
+            </div>
           </h1>
           <div className="h-1 w-full bg-gradient-to-r from-transparent via-orange-400 to-transparent" />
         </div>
