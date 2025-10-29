@@ -28,7 +28,7 @@ export default function VaultPreview() {
     : videos.filter(v => v.category === activeCategory);
 
   return (
-    <section className="relative py-20 px-6">
+    <section className="relative pt-20 pb-8 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-serif bg-gradient-to-r from-purple-300 via-orange-300 to-purple-300 bg-clip-text text-transparent mb-6">
