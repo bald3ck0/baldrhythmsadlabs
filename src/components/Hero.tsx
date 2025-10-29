@@ -39,7 +39,7 @@ export default function Hero() {
           Walk Among the Stars, Where Legends Reign
         </p>
         <p className="text-lg text-gray-200 max-w-2xl mx-auto mb-8 -mt-4 font-luxury font-light tracking-wide animate-glow-float">
-          Each clip is a star in your creative universe, waiting to illuminate your vision.
+          Each clip is a celestial jewel in your royal cosmos, awaiting your command to shine.
         </p>
 
         <button
