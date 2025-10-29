@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=Cinzel+Decorative:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Playfair+Display+SC:wght@400;700&family=Inter:wght@300;400;500;600;700&family=Cinzel+Decorative:wght@700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -27,24 +27,46 @@
   }
 
   .solar-flare-title {
-    font-family: 'Cinzel Decorative', serif;
+    font-family: 'Playfair Display SC', serif;
     font-weight: 700;
-    background: linear-gradient(90deg, #6A00FF, #FF8A00, #6A00FF);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    background: linear-gradient(135deg, #E6E6E6 0%, #A974FF 50%, #E6E6E6 100%);
     background-size: 200% 100%;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 30px rgba(255, 138, 0, 0.6), 0 0 60px rgba(106, 0, 255, 0.4);
-    filter: drop-shadow(0 0 20px rgba(255, 138, 0, 0.8)) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
-    animation: solarShift 8s ease-in-out infinite;
+    filter: drop-shadow(0 0 8px rgba(169, 116, 255, 0.4)) drop-shadow(0 0 15px rgba(230, 230, 230, 0.3)) blur(0.3px);
+    animation: cosmicShimmer 6s ease-in-out infinite;
+    position: relative;
   }
 
-  @keyframes solarShift {
+  .solar-flare-title::before {
+    content: '';
+    position: absolute;
+    inset: -20px;
+    background: radial-gradient(circle at 20% 30%, rgba(169, 116, 255, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(230, 230, 230, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(169, 116, 255, 0.08) 0%, transparent 60%);
+    pointer-events: none;
+    animation: twinkleGlow 4s ease-in-out infinite;
+  }
+
+  @keyframes cosmicShimmer {
     0%, 100% {
       background-position: 0% 50%;
     }
     50% {
       background-position: 100% 50%;
+    }
+  }
+
+  @keyframes twinkleGlow {
+    0%, 100% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 1;
     }
   }
 
