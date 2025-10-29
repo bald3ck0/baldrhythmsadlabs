@@ -112,8 +112,21 @@
     }
   }
 
+  @keyframes subtleFloat {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+
   .animate-subtle-glow {
     animation: subtleGlow 4s ease-in-out infinite;
+  }
+
+  .animate-glow-float {
+    animation: subtleGlow 4s ease-in-out infinite, subtleFloat 6s ease-in-out infinite;
   }
 
   .bg-gradient-radial {

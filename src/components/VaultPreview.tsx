@@ -34,7 +34,7 @@ export default function VaultPreview() {
           <h2 className="text-5xl md:text-6xl font-serif bg-gradient-to-r from-purple-300 via-orange-300 to-purple-300 bg-clip-text text-transparent mb-6">
             The Exclusive Stock Footage Vault
           </h2>
-          <p className="text-lg text-gray-200 max-w-2xl mx-auto font-luxury font-light tracking-wide animate-subtle-glow">
+          <p className="text-lg text-gray-200 max-w-2xl mx-auto font-luxury font-light tracking-wide animate-glow-float">
             for Visionary DJs, Promoters & Festivals
           </p>
         </div>
