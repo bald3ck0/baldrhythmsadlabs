@@ -4,7 +4,7 @@ import FloatingVideoCard from './FloatingVideoCard';
 export default function Hero() {
   const previewCards = [
     { id: 1, title: 'Crowd Energy', position: 'top-32 left-10' },
-    { id: 2, title: 'Light Beams', position: 'top-32 right-16' },
+    { id: 2, title: 'Light Beams', position: 'top-32 right-10' },
     { id: 4, title: 'Festival Waves', position: 'bottom-40 right-12' },
     { id: 5, title: 'DJ Symphony', position: 'top-1/2 left-10' },
   ];
