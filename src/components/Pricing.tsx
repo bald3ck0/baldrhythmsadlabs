@@ -27,7 +27,7 @@ export default function Pricing() {
     },
     {
       name: 'Imperial Vault',
-      subtitle: 'Premium Edition',
+      subtitle: 'Lifetime Premium Access',
       price: '$597',
       priceDetail: 'One-Time Premium',
       description: 'Exclusive limited footage sets included',
