@@ -36,7 +36,7 @@ export default function Hero() {
         </div>
 
         <p className="text-2xl md:text-3xl font-serif bg-gradient-to-r from-purple-300 via-orange-300 to-purple-300 bg-clip-text text-transparent mb-12 max-w-3xl mx-auto leading-relaxed">
-          Explore the Constellation
+          Walk Among the Stars, Where Legends Reign
         </p>
         <p className="text-lg text-gray-200 max-w-2xl mx-auto mb-8 -mt-4 font-luxury font-light tracking-wide animate-glow-float">
           Each clip is a star in your creative universe, waiting to illuminate your vision.
