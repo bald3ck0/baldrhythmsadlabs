@@ -70,7 +70,7 @@ export default function Pricing() {
             No Subscriptions. Lifetime Access.
           </p>
           <p className="text-lg text-gray-200 max-w-2xl mx-auto">
-            Invest once, create forever. Join the elite circle of creators who refuse to compromise.
+            Swear your vow once, and shape the realm forever. Enter the inner sanctum of creators who kneel before no standard but their own
           </p>
           <div className="mt-6 inline-block px-6 py-2 bg-red-500/20 border border-red-400/30 rounded-full">
             <p className="text-base text-red-300 font-medium">
