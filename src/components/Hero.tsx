@@ -38,12 +38,12 @@ export default function Hero() {
         <p className="text-2xl md:text-3xl font-serif bg-gradient-to-r from-purple-300 via-orange-300 to-purple-300 bg-clip-text text-transparent mb-12 max-w-3xl mx-auto leading-relaxed">
           Explore the Constellation
         </p>
-        <p className="text-lg text-gray-200 max-w-2xl mx-auto mb-12 font-luxury font-light tracking-wide animate-glow-float">
+        <p className="text-lg text-gray-200 max-w-2xl mx-auto mb-8 font-luxury font-light tracking-wide animate-glow-float">
           Each clip is a star in your creative universe, waiting to illuminate your vision.
         </p>
 
         <button
-          className="group relative px-12 py-5 bg-gradient-to-r from-purple-600 via-orange-500 to-purple-600 text-white font-semibold text-lg rounded-full overflow-hidden shadow-2xl shadow-purple-500/50 hover:shadow-orange-500/80 transition-all duration-300 hover:scale-105"
+          className="group relative px-12 py-5 bg-gradient-to-r from-purple-600 via-orange-500 to-purple-600 text-white font-semibold text-lg rounded-full overflow-hidden shadow-2xl shadow-purple-500/50 hover:shadow-orange-500/80 transition-all duration-300 hover:scale-105 -mt-4"
           aria-label="Unlock the Vault"
         >
           <span className="relative z-10 flex items-center gap-3">
