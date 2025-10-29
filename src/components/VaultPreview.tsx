@@ -32,10 +32,10 @@ export default function VaultPreview() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-serif bg-gradient-to-r from-purple-300 via-orange-300 to-purple-300 bg-clip-text text-transparent mb-6">
-            Explore the Constellation
+            The Exclusive Stock Footage Vault
           </h2>
           <p className="text-lg text-gray-200 max-w-2xl mx-auto">
-            Each clip is a star in your creative universe, waiting to illuminate your vision.
+            for Visionary DJs, Promoters & Festivals
           </p>
         </div>
 

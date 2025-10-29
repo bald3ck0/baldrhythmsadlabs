@@ -36,7 +36,10 @@ export default function Hero() {
         </div>
 
         <p className="text-xl md:text-2xl text-gray-200 mb-12 max-w-3xl mx-auto leading-relaxed">
-          The Exclusive Stock Footage Vault for Visionary DJs, Promoters & Festivals
+          Explore the Constellation
+        </p>
+        <p className="text-lg text-gray-200 max-w-2xl mx-auto mb-12">
+          Each clip is a star in your creative universe, waiting to illuminate your vision.
         </p>
 
         <button
