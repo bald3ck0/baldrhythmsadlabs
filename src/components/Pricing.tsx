@@ -105,11 +105,11 @@ export default function Pricing() {
                   <tier.icon className="w-8 h-8 text-white" />
                 </div>
 
-                <h3 className="text-3xl font-serif text-white mb-1">{tier.name}</h3>
-                <p className="text-sm text-orange-300 mb-4">{tier.subtitle}</p>
+                <h3 className="text-3xl font-serif text-white mb-1 text-center">{tier.name}</h3>
+                <p className="text-sm text-orange-300 mb-4 text-center">{tier.subtitle}</p>
 
-                <div className="mb-6">
-                  <div className="flex items-baseline gap-2 mb-1">
+                <div className="mb-6 text-center">
+                  <div className="flex items-baseline gap-2 mb-1 justify-center">
                     <span className="text-5xl font-bold bg-gradient-to-r from-orange-300 to-purple-300 bg-clip-text text-transparent">{tier.price}</span>
                   </div>
                   {tier.priceDetail && (
@@ -117,7 +117,7 @@ export default function Pricing() {
                   )}
                 </div>
 
-                <p className="text-gray-300 mb-8">{tier.description}</p>
+                <p className="text-gray-300 mb-8 text-center">{tier.description}</p>
 
                 <button
                   className={`w-full py-4 rounded-xl font-semibold text-lg transition-all duration-300 mb-8 ${
