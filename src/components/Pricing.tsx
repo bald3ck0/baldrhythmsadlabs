@@ -98,8 +98,10 @@ export default function Pricing() {
                 </div>
               )}
 
-              <div className={`h-full border-2 border-${tier.borderGlow}/30 hover:border-${tier.borderGlow} rounded-3xl bg-gradient-to-br from-indigo-950/50 to-violet-950/50 backdrop-blur-sm p-8 ${
-                tier.popular ? 'pt-12' : ''
+              <div className={`h-full border-2 border-${tier.borderGlow}/30 hover:border-${tier.borderGlow} rounded-3xl backdrop-blur-sm p-8 ${
+                tier.popular
+                  ? 'pt-12 bg-gradient-to-br from-indigo-950/50 to-violet-950/50'
+                  : 'bg-gradient-to-br from-indigo-950/70 to-purple-950/70'
               }`}>
                 <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${tier.gradient} flex items-center justify-center mb-6 shadow-lg mx-auto`}>
                   <tier.icon className="w-8 h-8 text-white" />
