@@ -30,7 +30,7 @@ export default function Pricing() {
       subtitle: 'Lifetime Premium Access',
       price: '$597',
       priceDetail: 'One-Time Premium',
-      description: 'Exclusive limited footage sets included',
+      description: 'Bestowed upon you, a limited compendium of imperial visions',
       features: [
         'Everything in Signature Vault',
         'Exclusive Festival Collections',
