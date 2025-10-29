@@ -36,6 +36,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px rgba(207, 207, 207, 0.85);
     filter: drop-shadow(0 0 8px rgba(169, 116, 255, 0.4)) drop-shadow(0 0 15px rgba(230, 230, 230, 0.3)) blur(0.3px);
     animation: cosmicShimmer 6s ease-in-out infinite;
     position: relative;
