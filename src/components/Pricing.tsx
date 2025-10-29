@@ -26,7 +26,7 @@ export default function Pricing() {
       popular: true,
     },
     {
-      name: 'Grand Festival',
+      name: 'Imperial Vault',
       subtitle: 'Premium Edition',
       price: '$597',
       priceDetail: 'One-Time Premium',
