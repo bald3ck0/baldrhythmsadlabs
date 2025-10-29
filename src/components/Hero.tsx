@@ -35,7 +35,7 @@ export default function Hero() {
           <div className="h-1 w-full bg-gradient-to-r from-transparent via-orange-400 to-transparent" />
         </div>
 
-        <p className="text-2xl md:text-3xl mb-12 max-w-3xl mx-auto leading-relaxed solar-flare-title">
+        <p className="text-2xl md:text-3xl font-serif bg-gradient-to-r from-purple-300 via-orange-300 to-purple-300 bg-clip-text text-transparent mb-12 max-w-3xl mx-auto leading-relaxed">
           Explore the Constellation
         </p>
         <p className="text-lg text-gray-200 max-w-2xl mx-auto mb-12">
