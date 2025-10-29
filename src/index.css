@@ -101,6 +101,21 @@
     }
   }
 
+  @keyframes subtleGlow {
+    0%, 100% {
+      opacity: 0.85;
+      text-shadow: 0 0 10px rgba(169, 116, 255, 0.15);
+    }
+    50% {
+      opacity: 1;
+      text-shadow: 0 0 20px rgba(169, 116, 255, 0.25), 0 0 30px rgba(230, 230, 230, 0.1);
+    }
+  }
+
+  .animate-subtle-glow {
+    animation: subtleGlow 4s ease-in-out infinite;
+  }
+
   .bg-gradient-radial {
     background: radial-gradient(circle, var(--tw-gradient-stops));
   }
