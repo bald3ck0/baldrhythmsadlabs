@@ -6,7 +6,7 @@ export default function Pricing() {
 
   const tiers = [
     {
-      name: 'Signature Vault',
+      name: 'Royal Vault',
       subtitle: 'Lifetime Access',
       price: '$297',
       priceDetail: 'One-Time Payment',
@@ -32,7 +32,7 @@ export default function Pricing() {
       priceDetail: 'One-Time Premium',
       description: 'Bestowed upon you, a limited compendium of imperial visions',
       features: [
-        'Everything in Signature Vault',
+        'Everything in Royal Vault',
         'Exclusive Festival Collections',
         'Ultra-Premium 8K Clips',
         'Custom Request Credits',
