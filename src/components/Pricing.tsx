@@ -6,21 +6,6 @@ export default function Pricing() {
 
   const tiers = [
     {
-      name: 'Discovery',
-      subtitle: 'Preview Access',
-      price: 'Free',
-      description: 'Sample the vault with curated preview clips',
-      features: [
-        '7 Premium Preview Clips',
-        'Watermarked Downloads',
-        'Standard Resolution',
-      ],
-      icon: Star,
-      gradient: 'from-indigo-600 to-violet-600',
-      borderGlow: 'indigo-400',
-      popular: false,
-    },
-    {
       name: 'Signature Vault',
       subtitle: 'Lifetime Access',
       price: '$297',
@@ -94,12 +79,12 @@ export default function Pricing() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20 max-w-5xl mx-auto">
           {tiers.map((tier, index) => (
             <div
               key={tier.name}
               className={`relative rounded-3xl overflow-hidden transition-all duration-500 hover:scale-105 ${
-                tier.popular ? 'lg:-mt-8 lg:mb-0 shadow-2xl shadow-amber-500/50' : ''
+                tier.popular ? 'shadow-2xl shadow-amber-500/50' : ''
               }`}
               style={{
                 animation: `fadeInUp 0.8s ease-out ${index * 0.2}s both`,
