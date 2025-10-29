@@ -72,8 +72,8 @@ export default function Pricing() {
           <p className="text-lg text-gray-200 max-w-2xl mx-auto">
             Invest once, create forever. Join the elite circle of creators who refuse to compromise.
           </p>
-          <div className="mt-6 inline-block px-6 py-2 bg-red-500/20 border border-red-400/30 rounded-full">
-            <p className="text-sm text-red-300 font-medium">
+          <div className="mt-6 inline-block px-12 py-4 bg-red-500/20 border border-red-400/30 rounded-full">
+            <p className="text-2xl text-red-300 font-medium">
               ⏳Discount Ending Soon
             </p>
           </div>
