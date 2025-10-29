@@ -10,7 +10,7 @@ export default function Pricing() {
       subtitle: 'Lifetime Access',
       price: '$297',
       priceDetail: 'One-Time Payment',
-      description: 'Unlock the complete vault forever',
+      description: 'Bestowed upon you, a limited compendium of imperial visions',
       features: [
         '10,000+ Premium 4K Clips',
         'Royalty-Free Usage',
